@@ -1,0 +1,94 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    background-color: antiquewhite;
+}
+#main{
+    /* border: 2px solid black; */
+    height: 450px;
+    width: 700px;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: 0px 1px 10px black ;
+    margin-top: 60px;
+}
+h1{
+    font-family: InterBlack;
+}
+h3{
+    font-family: InterBlack;
+    padding-left: 15px;
+}
+input{
+    margin-left: 10px;
+    margin-right: 20px;
+    height: 25px;
+}
+textarea{
+    margin-left: 10px;
+    margin-right: 20px;
+}
+#heading{
+    text-align: center;
+}
+button{
+    margin-top: 30px;
+    width: 180px;
+    height: 35px;
+    border-radius: 6px;
+    font-family: InterBlack;
+    color: whitesmoke;
+    background-color: black;
+    font-size: 18px;
+    cursor: pointer;
+}
+#btn{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#get{
+    background-color: rgb(91, 35, 142);
+}
+#post{
+    margin-top: 30px;
+    background-color: rgb(146, 13, 82);
+}
+#confess{
+    height: 40px;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: aliceblue;
+    box-shadow: 0px 1px 10px black ;
+    margin-top: 60px;
+    /* border: 2px solid black; */
+    color: rgb(144, 24, 94);
+}
+#to{
+    font-family: InterBlack;
+    margin: 0px;
+    margin-top: 20px;
+}
+#to-you{
+    font-family: InterBlack;
+    text-align: center;
+    font-size: 17px;
+}
+@font-face {
+    font-family: InterBlack;
+    src: url(../html/Inter-Black.ttf);
+}
+@font-face {
+    font-family: InterBold;
+    src: url(../html/Inter-Bold.ttf);
+}

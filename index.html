@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API confession</title>
+    <link rel="stylesheet" href="api.css">
+</head>
+<body>
+    <div id="main">
+        <div id="heading">
+            <h1>Confession</h1>
+        </div>
+        <h3>Roll Number:</h3>
+        <input type="text" id="roll_no" placeholder="Enter Roll No."/>
+        <h3>Confession:</h3>
+        <textarea name="Confession" id="feed" placeholder="Write your Confession" rows="4"></textarea>
+        <div id="btn">
+            <button id="get" onclick="getConfession()">Get Confession</button>
+            <button id="post" onclick="postConfession()">Post Confession</button>
+        </div>
+    </div>
+    <!-- <h3 id="to">Get Your Confession Here:</h3> -->
+    <div id="confess">
+        <p id="to-you"></p>
+    </div>
+    <script src="api.js"></script>
+</body>
+</html>
